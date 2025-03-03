@@ -1,0 +1,106 @@
+* {
+  font-family: "Satisfy", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 1.4rem;
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 4.5em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.8em;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 2.4em;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.instructors-page h2 {
+  font-size: 2.8em;
+}
+
+.instructors-page li {
+  font-size: 1.4rem;
+}
+
+.instructors-page strong {
+  font-size: 1.6rem;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em 1.4em;
+  font-size: 1.2rem; /* Increase font size for buttons */
+  font-weight: 500;
+  font-family: inherit; /* Keep the default font family for buttons */
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.navbar {
+  width: 100%;
+}
